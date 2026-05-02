@@ -1,8 +1,8 @@
 class Tablo < Formula
-  desc "`tablo` is a CLI data pipeline tool that transforms tabular data into formatted ASCII tables"
+  desc "CLI tool that transforms tabular data into formatted ASCII tables"
   homepage "https://github.com/vigo/tablo"
-  url "https://github.com/vigo/tablo/archive/refs/tags/v0.1.0.tar.gz"
-  sha256 "deb2e1f6168e4e0ce5047d7bd25e50f9db0d13b82a41f7caf82ebd0618c340da"
+  url "https://github.com/vigo/tablo/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "c086ba5d976121c2a87f8accbd3101e55937d303d0db74a527fae1a635277597"
   license "MIT"
 
   depends_on "go" => :build
