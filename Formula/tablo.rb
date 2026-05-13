@@ -1,8 +1,8 @@
 class Tablo < Formula
   desc "CLI tool that transforms tabular data into formatted ASCII tables"
   homepage "https://github.com/vigo/tablo"
-  url "https://github.com/vigo/tablo/archive/refs/tags/v0.3.0.tar.gz"
-  sha256 "fa9843b556af6b6ea4aed8bcea19e34c9d2c5a57a6be03c4d7b4a642dec16a4c"
+  url "https://github.com/vigo/tablo/archive/refs/tags/v0.4.0.tar.gz"
+  sha256 "be13a2e7dbae19b4c4dd630e2773c2507d16097a87511b5580df2876bebfea66"
   license "MIT"
 
   bottle do
@@ -15,6 +15,12 @@ class Tablo < Formula
 
   def install
     system "go", "build", *std_go_args
+    generate_completions_from_executable(
+      bin/"tablo",
+      "--bash-completion",
+      shell_parameter_format: :none,
+      shells:                 [:bash],
+    )
   end
 
   test do
