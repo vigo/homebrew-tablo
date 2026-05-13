@@ -1,8 +1,8 @@
 class Tablo < Formula
   desc "CLI tool that transforms tabular data into formatted ASCII tables"
   homepage "https://github.com/vigo/tablo"
-  url "https://github.com/vigo/tablo/archive/refs/tags/v0.4.0.tar.gz"
-  sha256 "be13a2e7dbae19b4c4dd630e2773c2507d16097a87511b5580df2876bebfea66"
+  url "https://github.com/vigo/tablo/archive/refs/tags/v0.4.1.tar.gz"
+  sha256 "4b2533adbd336584eec6c21948ccb33547e6457ae5be3cc3d5f4fb1c8ee4d74c"
   license "MIT"
 
   bottle do
