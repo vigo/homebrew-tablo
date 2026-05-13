@@ -6,9 +6,9 @@ class Tablo < Formula
   license "MIT"
 
   bottle do
-    root_url "https://github.com/vigo/homebrew-tablo/releases/download/tablo-0.3.0"
-    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "63a353e4c04b97f7746225d8442e8d07a3ab46bbfdadba31d95c546fb9fc30e9"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "b2bd2a564397ef38b45da293c91e2d5a9c9d06fcf79000764154a7125600867b"
+    root_url "https://github.com/vigo/homebrew-tablo/releases/download/tablo-0.4.0"
+    sha256 cellar: :any_skip_relocation, arm64_tahoe:  "948f251c902868486403c864f256ca5a4b33abfc53575d6b8f96725f603d85ba"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "65e39fcfbb0dcab2cbe8c3de314d13185dc07cdc3cd598a07e4a0a50fcf3fe28"
   end
 
   depends_on "go" => :build
